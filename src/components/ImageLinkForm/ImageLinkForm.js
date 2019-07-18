@@ -5,7 +5,7 @@ const ImageLinkForm = ({onInputChange, onButtonSubmit}) => {
 	return(
 		<div>
 			<p className='f3 center'>
-				{'This is a face detector web app from a picture. TRY copy & paste your link below '}
+				{`Copy & paste an image URL below. This app will try to detect a face from the image`}
 			</p>
 			<div className='center'>
 				<div className='form center pa4 br3 shadow-5'>
