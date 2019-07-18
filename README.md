@@ -1,3 +1,9 @@
+#### This is a front-end web app made by using REACT.js .The First step is register & signin into the app. Then, copy & paste an image URL to the app. The app will try to detect a face from the image. The back-end code is in the FR_API repo()
+
+You can see the demo app in here : https://face-recognition-by-cp22.herokuapp.com/
+
+=============================================================================
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +72,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
