@@ -85,7 +85,10 @@ class App extends Component{
           input: this.state.input
         })
       })
-      .then(response => response.json())
+      .then(response => {
+        response.json()
+        console.log(boolean(response.status));
+      })
       .then(response => {
         if(response){
           fetch('https://benefique-baguette-43762.herokuapp.com/image', {
