@@ -77,6 +77,7 @@ class App extends Component{
 
   onButtonSubmit = () => {
     this.setState({imageURL:this.state.input})
+    if(this.state.imageURL){
       fetch('https://benefique-baguette-43762.herokuapp.com/imageurl', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
@@ -103,6 +104,7 @@ class App extends Component{
         this.displayFaceBox(this.calculateFaceLocation(response))
       })
       .catch(err => console.log(err))
+    }
   }
 
   onRouteChange = (route) => {
