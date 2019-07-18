@@ -40,8 +40,8 @@ class App extends Component{
   constructor(props){
     super(props);
     this.state = initialState;
-    this.onInputChange = this.onInputChange.bind(this);
-    this.onButtonSubmit = this.onButtonSubmit.bind(this);
+    // this.onInputChange = this.onInputChange.bind(this);
+    // this.onButtonSubmit = this.onButtonSubmit.bind(this);
   }
 
   loadUser = (data) => {
@@ -81,7 +81,7 @@ class App extends Component{
     this.setState({imageURL:this.state.input})
     console.log("in",this.state.input);
     console.log("url",this.state.imageURL);
-    if(this.state.imageURL){
+    if(this.state.input){
       fetch('https://benefique-baguette-43762.herokuapp.com/imageurl', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
