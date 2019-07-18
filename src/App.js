@@ -79,6 +79,8 @@ class App extends Component{
 
   onButtonSubmit = () => {
     this.setState({imageURL:this.state.input})
+    console.log("in",this.state.input);
+    console.log("url",this.state.imageURL);
     if(this.state.imageURL){
       fetch('https://benefique-baguette-43762.herokuapp.com/imageurl', {
         method: 'post',
