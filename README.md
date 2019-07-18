@@ -1,4 +1,4 @@
-#### This is a front-end web app made by using REACT.js .The First step is register & signin into the app. Then, copy & paste an image URL to the app. The app will try to detect a face from the image. The back-end code is in the FR_API repo()
+#### This is a front-end web app made by using REACT.js .The First step is register & signin into the app. Then, copy & paste an image URL to the app. The app will try to detect a face from the image. For the back-end code visit FR_API repo(https://github.com/ChristinePhandi/FR_API.git)
 
 You can see the demo app in here : https://face-recognition-by-cp22.herokuapp.com/
 
